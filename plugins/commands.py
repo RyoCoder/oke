@@ -129,8 +129,8 @@ async def start(client, message):
         return
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Kênh', url='https://t.me/pholink'),
-            InlineKeyboardButton('🧩 Nhóm', url='https://t.me/phodam18')
+            InlineKeyboardButton('⚙️ Kênh', url='https://t.me/vetmang'),
+            InlineKeyboardButton('🧩 Nhóm', url='https://t.me/thodan18')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help_main'),
@@ -188,8 +188,8 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Repository', url='https://github.com/subinps/VCPlayerBot'),
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),     
+            InlineKeyboardButton('⚙️ Kênh', url='https://t.me/vetmang'),
+            InlineKeyboardButton('🧩 Nhóm', url='https://t.me/thodan18') 
         ],
         [
             InlineKeyboardButton("🎞 How to Deploy", url='https://youtu.be/mnWgZMrNe_0'),
