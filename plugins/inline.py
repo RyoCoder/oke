@@ -31,8 +31,8 @@ from pyrogram import (
 
 buttons = [
     [
-        InlineKeyboardButton('⚡️Nhóm', url='https://t.me/pholink'),
-        InlineKeyboardButton('🧩Kênh', url='https://t.me/phodam18'),
+        InlineKeyboardButton('⚡️Nhóm', url='https://t.me/vetmang'),
+        InlineKeyboardButton('🧩Kênh', url='https://t.me/thodan18'),
     ]
     ]
 def get_cmd(dur):
@@ -47,7 +47,7 @@ async def search(client, query):
         answers.append(
             InlineQueryResultArticle(
                 title="Deploy",
-                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n<b>🎀 Anh muốn xem bé thủ dâm thì tải 2 app bên dưới nhé! Hoàn toàn FREE ạ 🎀\n👉 LiveOkk.com và XuyenDem.com/app\n\n🎀Xem thêm các nhóm khác ở: @pholink</b>", disable_web_page_preview=True),
+                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n<b>- Anh muốn xem bé thủ dâm thì tải app bên dưới nhé! Hoàn toàn FREE ạ <3\n👉 http://live.vetmang.info\n\n- Xem thêm các nhóm khác ở: @vetmang</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
