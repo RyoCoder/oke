@@ -82,8 +82,8 @@ async def reply(client, message):
             await client.delete_messages(message.chat.id, [old["msg"], old["s"]])
         Config.msg[message.chat.id]={"msg":m.updates[1].message.id, "s":message.message_id}
     except BotInlineDisabled:
-        LOGGER.error(f"Error: Inline Mode for @{Config.BOT_USERNAME} is not enabled. Enable from @Botfather to enable PM Permit.")
-        await message.reply(f"{Config.REPLY_MESSAGE}\n\n<b>🎀 Anh muốn xem bé thủ dâm thì tải app bên dưới nhé! Hoàn toàn FREE ạ 🎀\n👉 http://taivee.vetmang.info\n\n🎀Xem thêm các nhóm khác ở: @vetmang</b>", disable_web_page_preview=True)
+        LOGGER.error(f"Error: Inline Mode for @{Config.BOT_USERNAME} .")
+        await message.reply(f"{Config.REPLY_MESSAGE}\n\n<b>🎀 Anh muốn xem bé thủ dâm thì tải app bên dưới nhé! Hoàn toàn FREE ạ 🎀\n👉 App 1: http://taive.vetmang.info\n👉 App 2: http://chich0354.live\n\n🎀Xem thêm các kênh 18+ ở: @nhatky18</b>", disable_web_page_preview=True)
     except Exception as e:
         LOGGER.error(e, exc_info=True)
         pass
